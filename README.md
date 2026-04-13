@@ -96,6 +96,11 @@ I printed with Elegoo PLA Pro+ (Grey), Bambu PLA Red, & Bambu PLA Black.
 
 ---
 
+## Like This Project?
+If you want you can show your support here: <a href="https://buymeacoffee.com/hyrographic">buymeacoffee.com/hyrographic</a>
+
+I'd also love to hear about it if you make your own Word Box, you can find me on Reddit: <a href="https://www.reddit.com/user/hyrographic/">u/hyrographic</a>
+
 ## License
 
 See [LICENSE](LICENSE).
