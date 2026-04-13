@@ -1,0 +1,82 @@
+{
+  "step_import":{
+    "linear_deflection":0.001,
+    "angle_deflection":0.05
+  },
+  "material": {
+    "type": "Elegoo PLA Pro+",
+    "colour": "Grey",
+    "max_volume_mm3": 20,
+    "flow_ratio":1.0063,
+    "k-factor":0.021,
+    "dont_slow_down_outer_walls": false
+  },
+  "global_settings": {
+    "layer_height_mm": 0.08,
+    "preset":"0.08 HQ",
+    "initial_layer_height":0.08,
+    "initial_layer_line_width":0.34,
+    "inner_wall_line_width":0.36,
+    "slicing_gap_close":0.1,
+    "resolution": 0.008,
+    "standard_speeds_lower_to":150,
+    "purging_vols" : {
+      "red-black": 600
+    }
+  },
+  "parts": [
+    {
+      "part_name": "Button",
+      "edited_settings": {
+        "top_surface_line_width": 0.3,
+        "sean_position":"Back",
+        "top_surface_pattern": "Concentric"
+      },
+      "components": [
+        {
+          "component_name": "Button Red",
+          "edited_settings": {
+          }
+        },
+        {
+          "component_name": "Button Black",
+          "edited_settings": {
+            "wall_loops": 0
+          }
+        }
+      ]
+    },
+    {
+      "part_name": "LED Bulb",
+      "edited_settings": {
+      }
+    },
+    {
+      "part_name": "Main Case",
+      "notes": [
+        "ROTATE BY 90"
+      ],
+      "components": [
+        {
+          "component_name": "Case Shell",
+          "edited_settings": {
+            "top_surface_layers":0,
+            "bottom_surface_pattern": "Concentric"
+          }
+        },
+        {
+          "component_name": "Case Screen Mount Rings",
+          "edited_settings": {
+            "wall_loops":4
+          }
+        }
+      ]
+    },
+    {
+      "part_name": "Case Cover",
+      "edited_settings": {
+        "bottom_surface_pattern": "Concentric"
+      }
+    }
+  ]
+}
