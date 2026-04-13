@@ -2,22 +2,9 @@
 
 An ESP-32 / e-Paper display project for a word-of-the-day desktop device with daily words, recall testing and tracking.
 
-<div style="display: flex; gap: 16px;">
-<figure style="margin: 0;">
-<img src="https://github.com/hyrographic/word_of_the_day_public/blob/main/images/WOTD%201.JPEG?raw=true">
-<figcaption>Word-of-the-day screen</figcaption>
-</figure>
-
-<figure style="margin: 0;">
-<img src="https://github.com/hyrographic/word_of_the_day_public/blob/main/images/WOTD%202.JPEG?raw=true">
-<figcaption>Previous word recall</figcaption>
-</figure>
-
-<figure style="margin: 0;">
-<img src="https://github.com/hyrographic/word_of_the_day_public/blob/main/images/WOTD%204.JPEG?raw=true">
-<figcaption>Recall stats</figcaption>
-</figure>
-</div>
+| ![](https://github.com/hyrographic/word_of_the_day_public/blob/main/images/WOTD%201.JPEG?raw=true) | ![](https://github.com/hyrographic/word_of_the_day_public/blob/main/images/WOTD%202.JPEG?raw=true) | ![](https://github.com/hyrographic/word_of_the_day_public/blob/main/images/WOTD%204.JPEG?raw=true) |
+|:---:|:---:|:---:|
+| Word-of-the-day screen | Previous word recall | Recall stats |
 
 ---
 
@@ -93,11 +80,11 @@ pio device monitor
 
 | Mode | How to trigger |
 |---|---|
-| Word-of-the-Day | Default on wake; refreshes each day at 05:15 |
+| Word of the Day | Default on wake; refreshes each day at 05:15 |
 | Recall | Short button press from WOTD/home screen |
 | Answer reveal | Short or long button press to log if you GOT IT or FORGOT IT|
 | Stats grid | Long button press from WOTD/home screen |
-| Settings | 5 second button press from WOTD/home screen |
+| Settings / Config | 5 second long press from WOTD/home screen to start the AP server to change WiFi credentials, download json recall history or reset the device. |
 
 ---
 
