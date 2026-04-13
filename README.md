@@ -78,7 +78,7 @@ pio device monitor
 
 ## Using the Device
 
-| Mode | How to trigger |
+| Mode | Action |
 |---|---|
 | Word of the Day | Default on wake; refreshes each day at 05:15 |
 | Recall | Short button press from WOTD/home screen |
