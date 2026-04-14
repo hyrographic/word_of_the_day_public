@@ -51,6 +51,9 @@ An ESP-32 / e-Paper display project for a word-of-the-day desktop device with da
 - ESP-32
 - Waveshare 2.9" B/W/R e-paper display
 
+### Wiring and Assembly Guide
+**Coming Soon**
+
 ### Build & Flash
 
 ```bash
